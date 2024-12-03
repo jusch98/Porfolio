@@ -1,3 +1,35 @@
-header.img{
-    background-image: url(https://www.pexels.com/es-es/foto/catedral-vacia-135018/);
+header.img {
+  background-image: url('https://www.pexels.com/es-es/foto/catedral-vacia-135018/');
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+button.menu-toggle {
+  font-size: 1.5rem;
+  color: #202122;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
+
+#formulario {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
